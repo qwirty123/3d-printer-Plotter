@@ -9,7 +9,7 @@ It only works for window. If you want it for linux, you know how.
  2. Make a svg design the size of your build plate minus about 5mm on each side
 	 - If you're using inkscape, make sure that when you export, use the Page tab and not the Document tab. If you don't, the plot will be on the bottom left side of the print bed.
 	 - If you want to plot text, you must convert the font to a path
-	 - If you use a regular font, it will draw the outline of the text
+	 - If you use a regular font, it will draw the outline of the text. [Photo](/pics/1000004072.jpg)
 	 - If you want to draw text in a single stroke, use the **Hershey Text** extension in inkscape and use a stroke font.
  3. Edit main.py with your file and settings
 	 - Z_HOP_THRESH: svg2gcode will put a z-hop for every path stroke. This will take a long time. This setting removes z-hops below a set threshold. This is great for writing text.
