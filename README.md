@@ -13,7 +13,7 @@ It only works for window. If you want it for linux, you know how.
 	 - If you want to draw text in a single stroke, use the **Hershey Text** extension in inkscape and use a stroke font.
  3. Edit main.py with your file and settings
 	 - Z_HOP_THRESH: svg2gcode will put a z-hop for every path stroke. This will take a long time. This setting removes z-hops below a set threshold. This is great for writing text.
-       - See [Picture](/blob/main/pics/1000004074.jpg)
+       - See [Picture](/pics/1000004074.jpg)
 	 - The settings file contains settings for svg2gcode.
 		 - Tool on and tool off are for starting and stopping strokes. I set them to raise and lower by 5mm.
 		 - Feedrate is speed in mm/min
