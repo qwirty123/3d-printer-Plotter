@@ -1,0 +1,26 @@
+{
+  "conversion": {
+    "tolerance": 0.002,
+    "feedrate": 3000.0,
+    "dpi": 96.0,
+    "origin": [
+      0.0,
+      0.0
+    ]
+  },
+  "machine": {
+    "supported_functionality": {
+      "circular_interpolation": false
+    },
+    "tool_on_sequence": "G0 Z0",
+    "tool_off_sequence": "G0 Z5",
+    "begin_sequence": "G91; use relative coords\nG0 Z10; Move up\n\nG90 ; use absolute coordinates\nM83 ; extruder relative mode\nG28 X Y ; home ONLY X and Y\nG92 Z10; Set z value to be 10 to offset initial move\n\n",
+    "end_sequence": "G0 Z20"
+  },
+  "postprocess": {
+    "checksums": false,
+    "line_numbers": false,
+    "newline_before_comment": false
+  },
+  "version": "V5"
+}
