@@ -5,7 +5,7 @@ It only works for window. If you want it for linux, you know how.
 ## Usage
 
  1. Find some way to mount a spring loaded pen to your printer
-	 - I like to use a pilot g2 with the rotating cam removed and the spring put above the cartridge [Picture(https://github.com/qwirty123/3d-printer-Plotter/blob/main/pics/1000004080.jpg)
+	 - I like to use a pilot g2 with the rotating cam removed and the spring put above the cartridge [Picture](/pics/1000004080.jpg)
  2. Make a svg design the size of your build plate minus about 5mm on each side
 	 - If you're using inkscape, make sure that when you export, use the Page tab and not the Document tab. If you don't, the plot will be on the bottom left side of the print bed.
 	 - If you want to plot text, you must convert the font to a path
